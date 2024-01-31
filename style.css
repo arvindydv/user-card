@@ -16,11 +16,12 @@ body {
     padding: 20px;
     max-width: 400px;
     width: 100%;
+    color: black;
 }
 
 h1 {
     font-size: 24px;
-    color: #333;
+    /* color: #333; */
     margin-bottom: 20px;
     text-align: center;
 }
@@ -37,13 +38,21 @@ h1 {
 
 .label {
     font-weight: bold;
-    color: #555;
+    /* color: #555; */
     flex: 1;
 }
 
 #user-info span {
     flex: 2;
-    color: #444;
+    /* color: #444; */
     text-align: left;
     padding-left: 10px;
+}
+.d-flex{
+    display: flex;
+    justify-content: end;
+}
+.dark{
+    background-color: black !important;
+    color: white !important;
 }

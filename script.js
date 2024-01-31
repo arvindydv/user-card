@@ -49,3 +49,7 @@ function storeUserInfo() {
     document.getElementById("village").textContent = userInfo.village;
 }
 
+document.querySelector("#btn").addEventListener("click", () => {
+    document.querySelector(".container").classList.toggle("dark");
+    // document.querySelector(".container").style.color = "white !important";
+});
